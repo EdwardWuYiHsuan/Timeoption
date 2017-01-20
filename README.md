@@ -1,7 +1,7 @@
 Timeoption
 -------------------
 
-# Demonstration Hosted here: http://timeoption-env.us-west-2.elasticbeanstalk.com/
+## Demonstration Hosted here: http://timeoption-env.us-west-2.elasticbeanstalk.com/
 
 
 ## Technology Stack
