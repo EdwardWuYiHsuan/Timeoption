@@ -28,6 +28,9 @@ public class TimeoptionService {
 		for (int i = 0; i < jArray.size(); i++) {
 			JsonObject shiftHour = jArray.get(i).getAsJsonObject();
 			Week week = Week.getWeekByLetter(shiftHour.get("week").getAsString());
+			if (null == week)
+				throw new IllegalArgumentException("invalid-shift-hours");
+			
 			String start = shiftHour.get("start").getAsString();
 			String end = shiftHour.get("end").getAsString();
 			DateTime dateTime = new DateTime(start, end);

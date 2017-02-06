@@ -5,7 +5,7 @@ Timeoption
 
 
 ## Technology Stack
-* Oracle Jave 7 SDK
+* Oracle Jave 7 JDK
 * Spring (Boot) Framework
 * jQuery
 * Bootstrap

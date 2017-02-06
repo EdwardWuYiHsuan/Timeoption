@@ -5,14 +5,12 @@ public enum Week {
 	
 	public static Week getWeekByLetter(String text)
 	{
-		Week result = null;
 		for (Week week : Week.values()) {
 			if (text.equalsIgnoreCase(week.name())) {
-				result = week;
-				break;
+				return week;
 			}
 		}
-		return result;
+		return null;
 	}
 	
 	
